@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    font-family: sans-serif;
+    font-size: 100px;
+    margin: 20px 0 20px 0;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+#mainImage {
+    width: 100%;
+}
+
+#previousImage, #nextImage {
+    width: 75%;
+}
+
+.previous {
+    justify-content: right;
+}
+
+#previousArrow, #nextArrow {
+    width: 200%;
+}
