@@ -8,6 +8,17 @@ body {
     width: 100%;
 }
 
+.main {
+    width: 100%;
+}
+
+.wrapper__of__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
 .wrapper {
     display: flex;
     align-items: center;
@@ -36,14 +47,22 @@ body {
     width: 100%;
 }
 
-#previousImage, #nextImage {
-    width: 75%;
-}
-
 .previous {
     justify-content: right;
 }
 
+#previousImage, #nextImage {
+    width: 100%;
+}
+
+.previous, .next {
+    width: 75%;
+}
+
 #previousArrow, #nextArrow {
     width: 200%;
+}
+
+#previousArrow, #nextArrow {
+    width: 100px;
 }
