@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #212121;
+    background: linear-gradient(#2c2c2c, #212121, #2c2c2c);
     width: 100%;
 }
 
@@ -21,16 +21,20 @@ body {
 }
 
 .wrapper {
+    height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .name {
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);;
     color: #b4b4b4;
     font-family: sans-serif;
-    font-size: 1200%;
+    font-size: 75pt;
     margin: 20px 0 20px 0;
+    text-align: center;
 }
 
 .gallery {
