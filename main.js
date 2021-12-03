@@ -1,5 +1,5 @@
 const TYPE = "data:image/jpeg;base64,"
-const SET_NUMBER = 50
+const SET_NUMBER = 100
 let HOST = "http://3.139.239.175"
 let images = []
 let mainIndex = 0
