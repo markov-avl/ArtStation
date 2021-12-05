@@ -1,6 +1,6 @@
 const TYPE = "data:image/jpeg;base64,"
 const SET_NUMBER = 100
-let HOST = "http://3.139.239.175"
+let HOST = "http://152.69.165.54"
 let images = []
 let mainIndex = 0
 let previousImage = document.getElementById("previousImage")
